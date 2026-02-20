@@ -1,1 +1,6 @@
-https://raw.githubusercontent.com/datadesk/california-coronavirus-data/master/cdph-vaccination-zipcode-totals.csv
+import numpy as np
+import pandas as pd
+
+data_df = "https://raw.githubusercontent.com/datadesk/california-coronavirus-data/master/cdph-vaccination-zipcode-totals.csv"
+
+datadesk_raw = pd.read_csv(DATADESK_URL)
